@@ -13,7 +13,17 @@
 
 **Production-ready AI agent orchestrator that commands specialist teams and coordinates with peer agents across domains**
 
-[Quick Start](#-quick-start) • [Features](#-features) • [Architecture](#-architecture) • [Documentation](#-documentation) • [Become a Reseller](https://intentsolutions.io/reseller)
+[Quick Start](#-quick-start) • [Features](#-features) • [Architecture](#-architecture) • [📖 Interactive Docs](https://jeremylongshore.github.io/iam1-regional-manager/) • [Become a Reseller](https://intentsolutions.io/reseller)
+
+---
+
+### 📖 Interactive Documentation
+
+<a href="https://jeremylongshore.github.io/iam1-regional-manager/">
+  <img src="https://img.shields.io/badge/View-Interactive_Docs-667eea?style=for-the-badge&logo=github-pages" alt="View Interactive Documentation">
+</a>
+
+**Explore the architecture with interactive Mermaid diagrams** showing IAM1→IAM2 hierarchical structure, A2A peer coordination, deployment workflows, and decision frameworks.
 
 ---
 
