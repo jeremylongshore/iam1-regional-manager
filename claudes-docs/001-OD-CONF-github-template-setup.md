@@ -339,7 +339,7 @@ Services include:
 - A2A multi-agent setup
 - Support and maintenance
 
-Contact: support@intentsolutions.io
+Contact: jeremy@intentsolutions.io
 
 ## Contributing
 
@@ -622,7 +622,7 @@ make deploy
 ## Support
 
 Issues with template updates? Contact IntentSolutions support:
-- Email: support@intentsolutions.io
+- Email: jeremy@intentsolutions.io
 - GitHub Issues: https://github.com/IntentSolutions/iam1-regional-manager/issues
 ```
 

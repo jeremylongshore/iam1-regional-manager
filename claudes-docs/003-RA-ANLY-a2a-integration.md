@@ -272,7 +272,7 @@ uv add "a2a-sdk~=0.3.9" "nest-asyncio>=1.6.0,<2.0.0"
     "provider": {
       "name": "IntentSolutions",
       "url": "https://intentsolutions.io",
-      "contact": "support@intentsolutions.io"
+      "contact": "jeremy@intentsolutions.io"
     }
   },
   "skills": [

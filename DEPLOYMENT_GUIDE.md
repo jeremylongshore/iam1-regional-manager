@@ -250,4 +250,4 @@ response = iam2_data.execute_task("Generate Q4 sales report")
 
 **IntentSolutions**
 Website: https://intentsolutions.io
-Email: contact@intentsolutions.io
+Email: jeremy@intentsolutions.io

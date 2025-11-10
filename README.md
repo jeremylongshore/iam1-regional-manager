@@ -471,7 +471,7 @@ Special thanks to our contributors and the open-source community.
 
 ### Professional Support
 
-- 📧 Email: [support@intentsolutions.io](mailto:support@intentsolutions.io)
+- 📧 Email: [jeremy@intentsolutions.io](mailto:jeremy@intentsolutions.io)
 - 🌐 Website: [intentsolutions.io](https://intentsolutions.io)
 - 💼 LinkedIn: [IntentSolutions](https://linkedin.com/company/intentsolutions)
 - 🐦 Twitter: [@IntentSolutions](https://twitter.com/IntentSolutions)
