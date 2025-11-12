@@ -7,10 +7,12 @@ Handles:
 - Real-time updates and notifications
 """
 
-import os
 import logging
+import os
+
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
+
 from app.agent import handle_message
 
 logger = logging.getLogger(__name__)

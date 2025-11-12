@@ -10,16 +10,18 @@ This agent orchestrates a multi-agent system, focusing on:
 """
 
 import os
+
 from google.adk.agents import Agent
-from app.tools import (
-    delegate_to_agent,
-    coordinate_with_peer_agent,
-    update_firebase_dashboard,
-    send_slack_notification,
-    create_task_plan,
-    track_goal_progress,
-)
+
 from app.retrievers import retrieve_knowledge
+from app.tools import (
+    coordinate_with_peer_agent,
+    create_task_plan,
+    delegate_to_agent,
+    send_slack_notification,
+    track_goal_progress,
+    update_firebase_dashboard,
+)
 
 # Supreme Commander System Instruction
 SUPREME_COMMANDER_INSTRUCTION = """

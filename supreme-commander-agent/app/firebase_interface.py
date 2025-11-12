@@ -8,12 +8,14 @@ Provides real-time dashboard with:
 - Performance KPIs
 """
 
-import os
 import logging
-from datetime import datetime, UTC
-from typing import Any, Dict
+import os
+from datetime import UTC, datetime
+from typing import Any
+
 import firebase_admin
 from firebase_admin import credentials, db, firestore
+
 from app.agent import handle_message
 
 logger = logging.getLogger(__name__)
@@ -38,7 +40,7 @@ def initialize_firebase():
             raise
 
 
-def handle_dashboard_request(request_type: str, data: Dict[str, Any]) -> Dict[str, Any]:
+def handle_dashboard_request(request_type: str, data: dict[str, Any]) -> dict[str, Any]:
     """
     Handle incoming requests from Firebase dashboard.
 
@@ -102,7 +104,7 @@ def handle_dashboard_request(request_type: str, data: Dict[str, Any]) -> Dict[st
         }
 
 
-def get_system_status() -> Dict[str, Any]:
+def get_system_status() -> dict[str, Any]:
     """
     Get current system status for dashboard.
 
@@ -170,7 +172,7 @@ def get_system_status() -> Dict[str, Any]:
 def update_dashboard_metric(
     metric_name: str,
     value: Any,
-    metadata: Dict[str, Any] | None = None,
+    metadata: dict[str, Any] | None = None,
 ) -> bool:
     """
     Update a specific dashboard metric in realtime.
@@ -209,7 +211,7 @@ def send_dashboard_alert(
     alert_type: str,
     message: str,
     severity: str = "info",
-    metadata: Dict[str, Any] | None = None,
+    metadata: dict[str, Any] | None = None,
 ) -> bool:
     """
     Send an alert to the Firebase dashboard.

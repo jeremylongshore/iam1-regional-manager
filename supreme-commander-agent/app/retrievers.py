@@ -7,11 +7,10 @@ Provides access to:
 - Combined hybrid search
 """
 
-import os
-from typing import List
-from google.cloud import discoveryengine_v1 as discoveryengine
-from google.cloud.aiplatform import MatchingEngineIndexEndpoint
 import logging
+import os
+
+from google.cloud import discoveryengine_v1 as discoveryengine
 
 logger = logging.getLogger(__name__)
 

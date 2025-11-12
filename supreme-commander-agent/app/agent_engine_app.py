@@ -5,9 +5,9 @@ This module packages the Supreme Commander agent for deployment
 to Vertex AI Agent Engine (serverless, managed agent hosting).
 """
 
-import os
 import logging
-from app.agent import supreme_commander, handle_message
+
+from app.agent import handle_message, supreme_commander
 
 # Configure logging
 logging.basicConfig(
